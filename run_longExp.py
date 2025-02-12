@@ -36,10 +36,7 @@ if __name__ == '__main__':
     parser.add_argument('--pred_len', type=int, default=720, help='prediction sequence length')
 
     #u_linear
-    parser.add_argument('--stage_num', type=int, default=3, help='stage num')
-    parser.add_argument('--stage_pool_kernel', type=int, default=3, help='AvgPool1d kernel_size')
-    parser.add_argument('--stage_pool_stride', type=int, default=2, help='AvgPool1d stride')
-    parser.add_argument('--stage_pool_padding', type=int, default=0, help='AvgPool1d padding')
+
 
     # DLinear
     #parser.add_argument('--individual', action='store_true', default=False, help='DLinear: a linear layer for each variate(channel) individually')
